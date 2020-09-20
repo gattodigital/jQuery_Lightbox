@@ -16,6 +16,9 @@
     <!-- Custom Styles -->
     <link href="css/styles.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f59ff896ae.js" crossorigin="anonymous"></script>
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -32,11 +35,48 @@
 
     <header>
 
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse" id="siteNavigation">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni, nesciunt laborum dignissimos et. Fuga earum iusto amet inventore repellendus eos possimus, natus neque, voluptatem fugiat, pariatur, deleniti cumque sequi.</p>
+              <ul class="main-menu navbar-nav">
+                <li>
+                  <a href="">
+                    Home 
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+                <li>
+                  <a href="">
+                    Sliders 
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+                <li>
+                  <a href="">
+                    Portfolio 
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+                <li>
+                  <a href="">
+                    About 
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+                <li>
+                  <a href="">
+                    Stories 
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+                <li>
+                  <a href="">
+                    Contact
+                  <span class="link-counter"></span>
+                </a>
+                </li>
+              </ul>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
@@ -50,14 +90,23 @@
         </div>
       </div>
 
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <strong>jQuery Lightbox</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="navbar">
+        <div class="container d-flex justify-content-end">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#siteNavigation" aria-controls="siteNavigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
           </button>
+        </div>
+      </div>
+
+      <div class="page-header">
+        <div class="container">
+          <span class="title">Portfolio</span>
+          <div class="p-3">
+            <h1>Our Best Works</h1>
+            <p>We are proud of our clients. Beautiful, driven brands with which we want to reach the maximum every day. Check out our success stories here and get inspired.</p>
+          </div>
         </div>
       </div>
 
@@ -78,10 +127,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Architecture
+                      <span>Architecture</span>
                     </div>
                     <div class="title">
-                      Black Apartment
+                      <h4>Black Apartment</h4>
                     </div>
                   </div>
                 </a>
@@ -96,10 +145,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Product
+                      <span>Product</span>
                     </div>
                     <div class="title">
-                      Diesel Watch
+                      <h4>Diesel Watch</h4>
                     </div>
                   </div>
                 </a>
@@ -114,10 +163,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Digital Art
+                      <span>Digital Art</span>
                     </div>
                     <div class="title">
-                      Intentional
+                      <h4>Intentional</h4>
                     </div>
                   </div>
                 </a>
@@ -132,10 +181,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Fashion, Photography
+                      <span>Fashion, Photography</span>
                     </div>
                     <div class="title">
-                      Blue Edition
+                      <h4>Blue Edition</h4>
                     </div>
                   </div>
                 </a>
@@ -150,10 +199,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Photography
+                      <span>Photography</span>
                     </div>
                     <div class="title">
-                      Zero Untitled
+                      <h4>Zero Untitled</h4>
                     </div>
                   </div>
                 </a>
@@ -168,10 +217,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Photography, Photograpy
+                      <span>Photography, Photograpy</span>
                     </div>
                     <div class="title">
-                      NFL Combine
+                      <h4>NFL Combine</h4>
                     </div>
                   </div>
                 </a>
@@ -186,10 +235,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Video, Architecture
+                      <span>Video, Architecture</span>
                     </div>
                     <div class="title">
-                      Equator CGI
+                      <h4>Equator CGI</h4>
                     </div>
                   </div>
                 </a>
@@ -204,10 +253,10 @@
                   </div>
                   <div class="caption">
                     <div class="category">
-                      Photography
+                      <span>Photography</span>
                     </div>
                     <div class="title">
-                      Native Union
+                      <h4>Native Union</h4>
                     </div>
                   </div>
                 </a>
